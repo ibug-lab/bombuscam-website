@@ -3,20 +3,52 @@ project:
   output-dir: docs
 
 website:
-  title: "bombuscam-website"
+  # google-analytics: "G-9QW2N0QB7G"
+  title: "The BombusCam"
+  # favicon: media/web-favicon.png
   navbar:
+    # logo: media/umn-logo-hex@3x.png
+    title: false
     left:
       - href: index.qmd
         text: Home
+      # - href: news-posts.qmd
+      #   text: News
+      # - href: blog/index.qmd
+      #  text: "{{< iconify file-icons rstudio size=1em >}} Notebook"
+      # - href: people/index.qmd
+      #   text: People
       - about.qmd
+      - people.qmd
+      - build-plans.qmd
+    right:
+      - text: "{{< iconify fa6-brands bluesky size=1.1em title='Bluesky' >}}"
+        href: https://bsky.app/profile/jhemberger.bsky.social
+        target: _blank
+      - icon: github # add icons as navbar buttons
+        href: https://github.com/ibug-lab/bombuscam
+        target: _blank
+      - icon: envelope
+        href: mailto:jhemberg@umn.edu
+  page-footer:
+    background: light # or `dark`
+    left: Copyright 2026, Jeremy Hemberger
+    center: |
+      Background image: Black and gold bumble bee (<i>Bombus auricomus</i>) on bee balm (<i>Monarda fistulosa</i>), J.Hemberger 2017
+    right: Built with [{{< fa brands r-project title="R Project" >}}](https://www.r-project.org/about.html){target=_blank} and [Quarto](https://quarto.org/){target=_blank}
+
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
-    css: styles.css
+    theme: 
+      - journal
+      - styles.scss
+    # css: styles.scss
     toc: true
+    mainfont: Reddit Mono
+    page-layout: full
+
+editor: visual
 
 
 

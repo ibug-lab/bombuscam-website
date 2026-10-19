@@ -1,5 +1,20 @@
 ---
 title: "About"
+format: html
 ---
 
-About this site
+:::: {.video-hero}
+<video autoplay loop muted playsinline>
+  <source src="" type="video/quicktime">
+  Your browser does not support the video tag.
+</video>
+
+<div class="hero-overlay"></div>
+
+::: {.hero-content}
+# Welcome to the Pollinator Ecology Lab
+
+We study how environmental change affects pollinators and the plants they rely on.
+:::
+
+::::

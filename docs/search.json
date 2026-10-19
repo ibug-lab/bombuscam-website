@@ -1,15 +1,36 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "bombuscam-website",
+    "objectID": "build-plans.html",
+    "href": "build-plans.html",
+    "title": "Build Plans",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "About this site"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
+    "section": "",
+    "text": "Your browser does not support the video tag. \n\n\n\n\nWelcome to the Pollinator Ecology Lab\nWe study how environmental change affects pollinators and the plants they rely on.\n\n::::"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "The BombusCam",
+    "section": "",
+    "text": ":::\nThe BombusCam is an automated camera trap designed to provide continuous, non-lethal monitoring of bumble bee biodiversity. It functions not unlike a trail camera does for monitoring vertebrate and game species, letting us document species diversity and understand how environmental conditions impact bumble bee activity and species persistence. We’re developing these tools with collaborators at Kansas State University and the Environmental Security Technology Certification Program (ESTCP)\n:::"
+  },
+  {
+    "objectID": "index.html#providing-continuous-monitoring-for-bumble-bee-and-other-pollinator-biodiversity",
+    "href": "index.html#providing-continuous-monitoring-for-bumble-bee-and-other-pollinator-biodiversity",
+    "title": "The BombusCam",
+    "section": "Providing continuous monitoring for bumble bee and other pollinator biodiversity",
+    "text": "Providing continuous monitoring for bumble bee and other pollinator biodiversity"
+  },
+  {
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "People",
     "section": "",
     "text": "About this site"
   }
