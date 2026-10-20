@@ -7,7 +7,7 @@ website:
   title: "The BombusCam"
   # favicon: media/web-favicon.png
   navbar:
-    # logo: media/umn-logo-hex@3x.png
+    logo: media/bombus-navbar.png
     title: false
     left:
       - href: index.qmd
@@ -18,8 +18,10 @@ website:
       #  text: "{{< iconify file-icons rstudio size=1em >}} Notebook"
       # - href: people/index.qmd
       #   text: People
-      - about.qmd
-      - people.qmd
+      - href: about.qmd
+        text: About the Cameras
+      - href: research.qmd
+        text: Research Projects
       - build-plans.qmd
     right:
       - text: "{{< iconify fa6-brands bluesky size=1.1em title='Bluesky' >}}"

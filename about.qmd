@@ -1,20 +1,43 @@
 ---
-title: "About"
+title: ""
 format: html
+toc: false
+slug: About the Project
 ---
 
 :::: {.video-hero}
+```{=html}
 <video autoplay loop muted playsinline>
-  <source src="" type="video/quicktime">
+  <source src="media/bumbles.mov" type="video/quicktime">
   Your browser does not support the video tag.
 </video>
-
 <div class="hero-overlay"></div>
+```
 
 ::: {.hero-content}
-# Welcome to the Pollinator Ecology Lab
+# Getting continuous data of bumble bee and pollinator activity
+<p class="white-text">
+Our cameras give us data at an unprescedented resolution of time and space, allowing us to address pressing questions about the drivers of bumble bee and pollinator populations.
+</p>
+:::
+::::
 
-We study how environmental change affects pollinators and the plants they rely on.
+</br>
+
+:::{.research-callout1}
+### {{< fa gears >}} How do they work?
+
+The trap design is formed from an amalgam of prototypes, including work from our lab and some awesome work from researchers at Oregon State University (and recently published!)
 :::
 
-::::
+</br>
+
+:::{.research-callout1}
+### {{< fa camera >}} What do they look like in the field?
+:::
+
+</br>
+
+:::{.research-callout1}
+### {{< fa images >}} What do the images look like?
+:::

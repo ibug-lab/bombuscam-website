@@ -56,7 +56,7 @@ body {
 
 .navbar {
   --bs-navbar-padding-x: 0;
-  --bs-navbar-padding-y: 0.25em;
+  --bs-navbar-padding-y: 0em;
 }
 
 .nav-footer {
@@ -250,6 +250,7 @@ div.quarto-about-jolla .about-link {
 
 .research-callout1 {
   // height: 80%;
+  width: 100%;
   background-color: $white;
   box-sizing: content-box;
   padding: 15px;
@@ -262,6 +263,7 @@ div.quarto-about-jolla .about-link {
 
 .research-callout2 {
   // height: 80%;
+  width: 100%;
   background-color: $flower-white;
   box-sizing: content-box;
   padding: 15px;
@@ -358,7 +360,7 @@ div.quarto-about-jolla .about-link {
   right: 50%;
   margin-left: -50vw;
   margin-right: -50vw;
-  height: 70vh; /* Adjust hero height as needed */
+  height: 50vh; /* Adjust hero height as needed */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -377,6 +379,7 @@ div.quarto-about-jolla .about-link {
   transform: translate(-50%, -50%);
   object-fit: cover;
   z-index: 1;
+  filter: brightness(1); /* 1.0 is default, 0.6 dims it to 60% brightness */
 }
 
 /* Overlay to darken background video for improved text readability */
@@ -386,7 +389,7 @@ div.quarto-about-jolla .about-link {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.45); /* Adjust opacity (0.45) as needed */
+  background: rgba(0, 0, 0, 0.85); /* Adjust opacity (0.45) as needed */
   z-index: 2;
 }
 
@@ -395,9 +398,11 @@ div.quarto-about-jolla .about-link {
   position: relative;
   z-index: 3;
   color: #ffffff;
-  text-align: center;
-  max-width: 800px;
-  padding: 0 20px;
+  text-align: left;
+  max-width: 60%;
+  max-height: 150px;
+  padding: 0 2rem;         /* Prevents text from touching screen edges on mobile */
+  margin: 0 auto;
 }
 
 .video-hero .hero-content h1 {
@@ -408,6 +413,29 @@ div.quarto-about-jolla .about-link {
 }
 
 .video-hero .hero-content p {
-  font-size: 1.25rem;
+  font-size: 1rem;
   margin-bottom: 1.5rem;
+}
+
+/* remove white space under navbar */
+/* 1. Remove default padding/margin from page layout containers */
+main.content,
+#quarto-content,
+.page-columns,
+.quarto-container {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+/* 2. Pull the hero section flush to the top */
+.video-hero {
+  margin-top: 0 !important;
+  top: 0;
+}
+
+/* 3. Remove top margins from the first heading/element inside the hero */
+.video-hero .hero-content > *:first-child,
+.video-hero .hero-content h1 {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
 }

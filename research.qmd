@@ -1,0 +1,24 @@
+---
+title: ""
+toc: false
+---
+
+</br>
+
+::: research-callout1
+### {{< fa gears >}} How do they work?
+
+The trap design is formed from an amalgam of prototypes, including work from our lab and some awesome work from researchers at Oregon State University (and recently published!)
+:::
+
+</br>
+
+::: research-callout1
+### {{< fa camera >}} What do they look like in the field?
+:::
+
+</br>
+
+::: research-callout1
+### {{< fa images >}} What do the images look like?
+:::

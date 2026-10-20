@@ -9,16 +9,16 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "Getting continuous data of bumble bee and pollinator activity",
     "section": "",
-    "text": "Your browser does not support the video tag. \n\n\n\n\nWelcome to the Pollinator Ecology Lab\nWe study how environmental change affects pollinators and the plants they rely on.\n\n::::"
+    "text": "Your browser does not support the video tag.\n\n\n\nGetting continuous data of bumble bee and pollinator activity\n\nOur cameras give us data at an unprescedented resolution of time and space, allowing us to address pressing questions about the drivers of bumble bee and pollinator populations.\n\n\n\n\n\n How do they work?\nThe trap design is formed from an amalgam of prototypes, including work from our lab and some awesome work from researchers at Oregon State University (and recently published!)\n\n\n\n What do they look like in the field?\n\n\n\n What do the images look like?"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "The BombusCam",
     "section": "",
-    "text": ":::\nThe BombusCam is an automated camera trap designed to provide continuous, non-lethal monitoring of bumble bee biodiversity. It functions not unlike a trail camera does for monitoring vertebrate and game species, letting us document species diversity and understand how environmental conditions impact bumble bee activity and species persistence. We’re developing these tools with collaborators at Kansas State University and the Environmental Security Technology Certification Program (ESTCP)\n:::"
+    "text": "The BombusCam is an automated camera trap designed to provide continuous, non-lethal monitoring of bumble bee biodiversity. It functions not unlike a trail camera does for monitoring vertebrate and game species, letting us document species diversity and understand how environmental conditions impact bumble bee activity and species persistence. We’re developing these tools with collaborators at Kansas State University and the Environmental Security Technology Certification Program (ESTCP)"
   },
   {
     "objectID": "index.html#providing-continuous-monitoring-for-bumble-bee-and-other-pollinator-biodiversity",
@@ -33,5 +33,33 @@
     "title": "People",
     "section": "",
     "text": "About this site"
+  },
+  {
+    "objectID": "about.html#getting-continuous-data-of-bumble-bee-and-pollinator-activity",
+    "href": "about.html#getting-continuous-data-of-bumble-bee-and-pollinator-activity",
+    "title": "The BombusCam",
+    "section": "",
+    "text": "Our cameras afford us an unprescedented resolution of data in time and space, allowing us to address pressing questions about the drivers of bumble bee and pollinator populations."
+  },
+  {
+    "objectID": "about.html#managing-insect-biodiversity-in-agroecosystems",
+    "href": "about.html#managing-insect-biodiversity-in-agroecosystems",
+    "title": "Getting continuous data of bumble bee and pollinator activity",
+    "section": " Managing insect biodiversity in agroecosystems",
+    "text": "Managing insect biodiversity in agroecosystems"
+  },
+  {
+    "objectID": "about.html#managing-insect-biodiversity-in-agroecosystems-1",
+    "href": "about.html#managing-insect-biodiversity-in-agroecosystems-1",
+    "title": "Getting continuous data of bumble bee and pollinator activity",
+    "section": " Managing insect biodiversity in agroecosystems",
+    "text": "Managing insect biodiversity in agroecosystems"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "The BombusCam",
+    "section": "",
+    "text": "How do they work?\nThe trap design is formed from an amalgam of prototypes, including work from our lab and some awesome work from researchers at Oregon State University (and recently published!)\n\n\n\n What do they look like in the field?\n\n\n\n What do the images look like?"
   }
 ]
