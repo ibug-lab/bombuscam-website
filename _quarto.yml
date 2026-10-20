@@ -22,7 +22,8 @@ website:
         text: About the Cameras
       - href: research.qmd
         text: Research Projects
-      - build-plans.qmd
+      - href: https://www.github.com/ibug-lab/bombuscam
+        text: Build Plans
     right:
       - text: "{{< iconify fa6-brands bluesky size=1.1em title='Bluesky' >}}"
         href: https://bsky.app/profile/jhemberger.bsky.social
