@@ -42,7 +42,7 @@ Our cameras give us data at an unprescedented resolution of time and space, allo
 
 </br>
 
-{{< iconify fluent:number-circle-3-16-regular size=1.75em >}} We then use an amazing tool called [BeeMachine](https://www.beemachine.ai/) developed by [Brian Spiesman](pollinatorlab.com) at Kansas State University. This is a *classification* model that assigns a taxonomic identity to the insects detected, providing a confidence score (between 0-1) for the top 3 classes. The model is able to ID bumble bees with 96% accuracy, and has the capacity to ID almost 1,200 other flower visiting insect groups including 999 bee specices, and 154 bee genera (and other groups like wasps, flies, beetles, and butterflies and moths). 
+{{< iconify fluent:number-circle-3-16-regular size=1.75em >}} We then use an amazing tool called [BeeMachine](https://www.beemachine.ai/) developed by [Brian Spiesman](pollinatorlab.com) at Kansas State University. This is a *classification* model that assigns a taxonomic identity to the insects detected, providing a confidence score (between 0-1) for the top 3 classes. The model is able to ID bumble bees with 94% accuracy and has the capacity to ID almost 1,200 other flower visiting insect groups including 999 bee specices and 154 bee genera (and other groups like wasps, flies, beetles, and butterflies and moths). 
 
 </br>
 
