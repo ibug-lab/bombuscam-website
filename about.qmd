@@ -50,7 +50,7 @@ Our cameras give us data at an unprescedented resolution of time and space, allo
 :::
 
 :::{.callout-body}
-[{{< iconify lucide-lab:bee size=1.5em >}} Check out BeeMachine](https://www.beemachine.ai/){.btn .btn-primary role="button"} [{{< iconify fluent-mdl2:script size=1.5em >}} Check out Oregon State paper](https://www.beemachine.ai/){.btn .btn-primary role="button"} 
+[{{< iconify lucide-lab:bee size=1.5em >}} Check out BeeMachine](https://www.beemachine.ai/){.btn .btn-primary role="button"} [{{< iconify fluent-mdl2:script size=1.5em >}} Check out Oregon State paper](https://zslpublications.onlinelibrary.wiley.com/doi/10.1002/rse2.70091){.btn .btn-primary role="button"} 
 :::
 ::::
 
