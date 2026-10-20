@@ -1,24 +1,108 @@
 ---
 title: ""
+format: html
 toc: false
+slug: About the Project
 ---
 
 </br>
 
-::: research-callout1
-### {{< fa gears >}} How do they work?
-
-The trap design is formed from an amalgam of prototypes, including work from our lab and some awesome work from researchers at Oregon State University (and recently published!)
+:::::{.research-callout1}
+:::{.callout-header}
+### {{< fa head-side-mask >}} Air quality impacts on bumble bee activity
 :::
+
+::::{layout="[0.25, 0.75]"}
+:::{.callout-body}
+![](media/logos-stickers/bombuscam-sticker.png){width="200px" fig-align="center"}
+:::
+
+:::{.callout-body}
+Test
+:::
+::::
+
+::::{.callout-body}
+::: {layout="[1,1,1]"}
+![](./media/research/airqual-1.jpeg){.lightbox .uniform-gallery description="Massive sunflower hybrid seed production field outside of Davis, CA."}
+
+![](./media/research/airqual-2.jpeg){.lightbox .uniform-gallery description="Pollin*Cam unit deployed in sunflower field outside of Davis, CA."}
+
+![](./media/about/cedarcrk-bombuscam.jpeg){.lightbox .uniform-gallery description="Pollin*Cam unit deployed in sunflower field outside of Davis, CA."}
+:::
+::::
+
+::::{.callout-body .sponsor-grid}
+::: {.sponsor-logos-row}
+![](./media/research/umn.png){.lightbox .uniform-gallery}
+:::
+::::
+:::::
 
 </br>
 
-::: research-callout1
-### {{< fa camera >}} What do they look like in the field?
+:::::{.research-callout1}
+:::{.callout-header}
+### {{< iconify fa7-solid:sun-plant-wilt size=1.25em >}} Heat wave impacts on sunflower & crop pollination
 :::
+
+::::{layout="[0.33, 1]"}
+:::{.callout-body}
+![](media/logos-stickers/pollincam-sticker.png){width="200px" fig-align="center"}
+:::
+
+:::{.callout-body}
+One huge advantage of using cameras to continuously monitor bee activity is that we can understand how acute, stochastic environmental disturbances impact important ecosystem functions like pollination. Heat waves are one such disturbance. We've been working with collaborators at UC Davis to measure pollinator responses to heat waves so that we can model their potential impact on insect-mediated pollination of crops, using sunflowers as a model system. This project has been ongoing since 2021, but has recently been funded by a new California Department of Food and Agriculture (CDFA) Specialty Crop grant. For this project, we've been using a modified version of the BombusCam, called the Pollin*Cam, to monitor bee activity on sunflowers rather than an artificial lure. 
+:::
+::::
+
+
+![](media/research/cumulative_risk.png){.lightbox width="85%" fig-align="center"}
+
+
+::::{.callout-body}
+::: {layout="[1,1,1]"}
+![](./media/research/pollincam-1.jpeg){.lightbox .uniform-gallery description="Massive sunflower hybrid seed production field outside of Davis, CA."}
+
+![](./media/research/pollincam-2.jpeg){.lightbox .uniform-gallery description="Pollin*Cam unit deployed in sunflower field outside of Davis, CA."}
+
+![](./media/research/pollincam-3.png){.lightbox .uniform-gallery description="Example image from a deployed unit in 2022, with 3 different sunflower pollinators visiting simultaneously."}
+:::
+::::
+
+::::{.callout-body .sponsor-grid}
+::: {.sponsor-logos-row}
+![](./media/research/cdfa.png){.lightbox .uniform-gallery}
+
+![](./media/research/umn.png){.lightbox .uniform-gallery}
+
+![](./media/research/ucdavis.png){.lightbox .uniform-gallery}
+:::
+::::
+:::::
 
 </br>
 
-::: research-callout1
-### {{< fa images >}} What do the images look like?
+:::::{.research-callout1}
+:::{.callout-header}
+### {{< iconify streamline:graph-remix size=1.25em >}} Long-term monitoring of bumble bee populations
 :::
+
+::::{layout="[0.25, 0.75]"}
+:::{.callout-body}
+![](media/logos-stickers/bombuscam-sticker.png){width="200px" fig-align="center"}
+:::
+
+:::{.callout-body}
+Bumble bees are a critically important group of insect pollinators wherein several species have experienced extensive declines in range and abundance, with federal and state protection pending for several species in addition to the currently endangered Rusty Patched bumble bee (*Bombus affinis*). Despite this, our understanding of bumble bee population trends is largely piecemeal due to a lack of long-term monitoring efforts. This project, ongoing since 2024, has established a long-term bumble bee monitoring effort across the historical and current range of the Rusty Patched bumble bee in the Upper Midwest. Part of this involves establishing BombusCam camera traps across our monitoring sites to compare against human-based methods with the hope of establishing the cameras as a permanent fixture in bumble bee monitoring efforts. 
+:::
+::::
+
+::::{.callout-body .sponsor-grid}
+::: {.sponsor-logos-row}
+![](./media/research/usgs.png){.lightbox .uniform-gallery}
+
+![](./media/research/umn.png){.lightbox .uniform-gallery}
+:::
+::::
+:::::

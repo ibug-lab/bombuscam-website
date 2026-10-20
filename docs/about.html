@@ -2,17 +2,23 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>about – The BombusCam</title>
 <style>
-code{white-space: pre-wrap;}
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -36,13 +42,16 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-b22f9ddcb56acb3e63f5625f38f81bfc.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-8f843fb7ed270fe64f6b60030a86cdc5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/fontawesome6-6.7.2/all.min.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-6.7.2/latex-fontsize.css" rel="stylesheet">
 <script src="site_libs/quarto-contrib/iconify-3.0.0/iconify-icon.min.js"></script>
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -82,7 +91,8 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./media/bombus-navbar.png" alt="" class="navbar-logo">
+    <img src="./media/bombus-navbar.png" alt="" class="navbar-logo light-content">
+    <img src="./media/bombus-navbar.png" alt="" class="navbar-logo dark-content">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -155,20 +165,80 @@ Our cameras give us data at an unprescedented resolution of time and space, allo
 </section>
 </div>
 <p><br></p>
-<section id="how-do-they-work" class="level3 research-callout1">
-<h3 class="anchored" data-anchor-id="how-do-they-work"><i class="fa-solid fa-gears" aria-label="gears"></i> How do they work?</h3>
-<p>The trap design is formed from an amalgam of prototypes, including work from our lab and some awesome work from researchers at Oregon State University (and recently published!)</p>
+<div class="research-callout1">
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206765617273203e7d7d-how-do-they-work" class="level3 callout-header">
+<h3 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206765617273203e7d7d-how-do-they-work"><i class="fa-solid fa-gears" aria-label="gears"></i> How do they work?</h3>
 </section>
 <p><br></p>
-<section id="what-do-they-look-like-in-the-field" class="level3 research-callout1">
-<h3 class="anchored" data-anchor-id="what-do-they-look-like-in-the-field"><i class="fa-solid fa-camera" aria-label="camera"></i> What do they look like in the field?</h3>
-</section>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/bombuscam-schematic.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:95.0%"></p>
+</figure>
+</div>
+<div class="callout-body">
+<p><iconify-icon role="img" inline="" icon="fluent:number-circle-1-16-regular" style="font-size: 1.75em;" aria-label="Icon number-circle-1-16-regular from fluent Iconify.design set." title="Icon number-circle-1-16-regular from fluent Iconify.design set."></iconify-icon> Our camera trap works pretty much like a commercial trail cam would, but with the camera trained on a surface containing fluorescent, artificial flowers that attract bumble bees and other pollinators. When an insect lands, the camera, controlled by a Raspberry Pi miniature computer, detects motion and triggers a 3-image burst.</p>
 <p><br></p>
-<section id="what-do-the-images-look-like" class="level3 research-callout1">
-<h3 class="anchored" data-anchor-id="what-do-the-images-look-like"><i class="fa-solid fa-images" aria-label="images"></i> What do the images look like?</h3>
+<p><iconify-icon role="img" inline="" icon="fluent:number-circle-2-16-regular" style="font-size: 1.75em;" aria-label="Icon number-circle-2-16-regular from fluent Iconify.design set." title="Icon number-circle-2-16-regular from fluent Iconify.design set."></iconify-icon> We gather the images and process them using an insect detection computer vision model. This scans each image and crops out areas where the model believes there is an insect. Those crops are passed on to a classification model.</p>
+<p><br></p>
+<p><iconify-icon role="img" inline="" icon="fluent:number-circle-3-16-regular" style="font-size: 1.75em;" aria-label="Icon number-circle-3-16-regular from fluent Iconify.design set." title="Icon number-circle-3-16-regular from fluent Iconify.design set."></iconify-icon> We then use an amazing tool called <a href="https://www.beemachine.ai/">BeeMachine</a> developed by <a href="pollinatorlab.com">Brian Spiesman</a> at Kansas State University. This is a <em>classification</em> model that assigns a taxonomic identity to the insects detected, providing a confidence score (between 0-1) for the top 3 classes. The model is able to ID bumble bees with 96% accuracy, and has the capacity to ID almost 1,200 other flower visiting insect groups including 999 bee specices, and 154 bee genera (and other groups like wasps, flies, beetles, and butterflies and moths).</p>
+<p><br></p>
+<p><iconify-icon role="img" inline="" icon="clarity:design-line" style="font-size: 1.75em;" aria-label="Icon design-line from clarity Iconify.design set." title="Icon design-line from clarity Iconify.design set."></iconify-icon> The trap design is formed from an amalgam of prototypes, including work from our lab and some awesome work from researchers at Oregon State University. We’ve made adjustments to the trap attract surface and made ours solar powered to be able to collect data continously for the entire growing season.</p>
+</div>
+<div class="callout-body">
+<p><a href="https://www.beemachine.ai/" class="btn btn-primary" role="button"><iconify-icon role="img" inline="" icon="lucide-lab:bee" style="font-size: 1.5em;" aria-label="Icon bee from lucide-lab Iconify.design set." title="Icon bee from lucide-lab Iconify.design set."></iconify-icon> Check out BeeMachine</a> <a href="https://www.beemachine.ai/" class="btn btn-primary" role="button"><iconify-icon role="img" inline="" icon="fluent-mdl2:script" style="font-size: 1.5em;" aria-label="Icon script from fluent-mdl2 Iconify.design set." title="Icon script from fluent-mdl2 Iconify.design set."></iconify-icon> Check out Oregon State paper</a></p>
+</div>
+</div>
+<p><br></p>
+<div class="research-callout1">
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612063616d657261203e7d7d-what-do-they-look-like-in-the-field" class="level3 callout-header">
+<h3 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612063616d657261203e7d7d-what-do-they-look-like-in-the-field"><i class="fa-solid fa-camera" aria-label="camera"></i> What do they look like in the field?</h3>
 </section>
+<div class="callout-body">
+<div class="quarto-layout-panel" data-layout="[1,1,1,1]">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;">
+<p><a href="./media/trap-closeup.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1;"><img src="./media/trap-closeup.jpeg" class="uniform-gallery img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;">
+<p><a href="./media/new-platform.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" data-glightbox="description: .lightbox-desc-2;"><img src="./media/new-platform.jpeg" class="uniform-gallery img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;">
+<p><a href="./media/cedarcrk-bombuscam.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" data-glightbox="description: .lightbox-desc-3;"><img src="./media/cedarcrk-bombuscam.jpeg" class="uniform-gallery img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;">
+<p><a href="./media/quail-bombuscam.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-4" data-glightbox="description: .lightbox-desc-4;"><img src="./media/quail-bombuscam.jpeg" class="uniform-gallery img-fluid"></a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p><br></p>
+<div class="research-callout1">
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120696d61676573203e7d7d-what-do-the-photos-look-like" class="level3 callout-header">
+<h3 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120696d61676573203e7d7d-what-do-the-photos-look-like"><i class="fa-solid fa-images" aria-label="images"></i> What do the 🐝 photos look like?</h3>
+</section>
+<div class="callout-body">
+<div class="quarto-layout-panel" data-layout="[1,1,1,1]">
+
+</div>
+</div>
+</div>
 
 
+<div class="hidden" aria-hidden="true">
+<div class="glightbox-desc lightbox-desc-1">
+<p>BombusCam deployed at the University of Minnesota for testing.</p>
+</div>
+<div class="glightbox-desc lightbox-desc-2">
+<p>Closeup of the trap surface with 3D printed fluorescent flowers. These ‘glow’ under UV light and serve to attract specifically bumble bees.</p>
+</div>
+<div class="glightbox-desc lightbox-desc-3">
+<p>BombusCam deployed at Cedar Creek Reserve in conjunction with EEB researchers to investigate impacts of air quality on pollinator activity.</p>
+</div>
+<div class="glightbox-desc lightbox-desc-4">
+<p>BombusCam deployed at Quail Ridge Reserve overlooking Lake Berryessa outside of Winters, CA – part of the UC Reserve system.</p>
+</div>
+</div>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -222,13 +292,14 @@ Our cameras give us data at an unprescedented resolution of time and space, allo
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -584,6 +655,38 @@ Our cameras give us data at an unprescedented resolution of time and space, allo
 </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

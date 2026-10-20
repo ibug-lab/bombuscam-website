@@ -24,20 +24,68 @@ Our cameras give us data at an unprescedented resolution of time and space, allo
 
 </br>
 
-:::{.research-callout1}
+::::{.research-callout1}
+:::{.callout-header}
 ### {{< fa gears >}} How do they work?
-
-The trap design is formed from an amalgam of prototypes, including work from our lab and some awesome work from researchers at Oregon State University (and recently published!)
 :::
 
 </br>
 
-:::{.research-callout1}
+![](media/about/bombuscam-schematic.png){width="95%" fig-align="center"}
+
+:::{.callout-body}
+{{< iconify fluent:number-circle-1-16-regular size=1.75em >}} Our camera trap works pretty much like a commercial trail cam would, but with the camera trained on a surface containing fluorescent, artificial flowers that attract bumble bees and other pollinators. When an insect lands, the camera, controlled by a Raspberry Pi miniature computer, detects motion and triggers a 3-image burst. 
+
+</br>
+
+{{< iconify fluent:number-circle-2-16-regular size=1.75em >}} We gather the images and process them using an insect detection computer vision model. This scans each image and crops out areas where the model believes there is an insect. Those crops are passed on to a classification model.
+
+</br>
+
+{{< iconify fluent:number-circle-3-16-regular size=1.75em >}} We then use an amazing tool called [BeeMachine](https://www.beemachine.ai/) developed by [Brian Spiesman](pollinatorlab.com) at Kansas State University. This is a *classification* model that assigns a taxonomic identity to the insects detected, providing a confidence score (between 0-1) for the top 3 classes. The model is able to ID bumble bees with 96% accuracy, and has the capacity to ID almost 1,200 other flower visiting insect groups including 999 bee specices, and 154 bee genera (and other groups like wasps, flies, beetles, and butterflies and moths). 
+
+</br>
+
+{{< iconify clarity:design-line size=1.75em >}} The trap design is formed from an amalgam of prototypes, including work from our lab and some awesome work from researchers at Oregon State University. We've made adjustments to the trap attract surface and made ours solar powered to be able to collect data continously for the entire growing season.
+:::
+
+:::{.callout-body}
+[{{< iconify lucide-lab:bee size=1.5em >}} Check out BeeMachine](https://www.beemachine.ai/){.btn .btn-primary role="button"} [{{< iconify fluent-mdl2:script size=1.5em >}} Check out Oregon State paper](https://www.beemachine.ai/){.btn .btn-primary role="button"} 
+:::
+::::
+
+</br>
+
+:::::{.research-callout1}
+:::{.callout-header}
 ### {{< fa camera >}} What do they look like in the field?
 :::
 
+::::{.callout-body}
+::: {layout="[1,1,1,1]"}
+![](./media/about/trap-closeup.jpeg){.lightbox .uniform-gallery description="BombusCam deployed at the University of Minnesota for testing."}
+
+![](./media/about/new-platform.jpeg){.lightbox .uniform-gallery description="Closeup of the trap surface with 3D printed fluorescent flowers. These 'glow' under UV light and serve to attract specifically bumble bees."}
+
+![](./media/about/cedarcrk-bombuscam.jpeg){.lightbox .uniform-gallery description="BombusCam deployed at Cedar Creek Reserve in conjunction with EEB researchers to investigate impacts of air quality on pollinator activity."}
+
+![](./media/about/quail-bombuscam.jpeg){.lightbox .uniform-gallery description="BombusCam deployed at Quail Ridge Reserve overlooking Lake Berryessa outside of Winters, CA -- part of the UC Reserve system."}
+:::
+::::
+
+:::::
+
 </br>
 
-:::{.research-callout1}
-### {{< fa images >}} What do the images look like?
+::::{.research-callout1}
+:::{.callout-header}
+### {{< fa images >}} What do the 🐝 photos look like?
 :::
+
+::::{.callout-body}
+::: {layout="[1,1,1,1]"}
+
+:::
+::::
+
+::::
