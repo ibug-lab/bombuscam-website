@@ -18,7 +18,7 @@ slug: About the Project
 :::
 
 :::{.callout-body}
-Test
+Air pollution from wildfire smoke is an increasing threat to biodiversity and planetary health. Minnesota has experienceed a significant increase in wildfire smoke events in the last five years, and our knowledge of how these events impact important ecosystem functions like pollination is almost entirely unknown. The little we do know suggests that smoke may impede pollinator's ability to navigate when flying. We've been coupling the BombusCam camera traps with air pollution sensors to determine if there is a link between decreased pollinator activity and air quality. This past summer, we also had interns in our Science Deep Dive youth research program working with these data in almost real-time data and we've also partnered with the Bell Museum, utilizing their outdoor research space to collect data, and to host a workshop for youth interns on science communication to develop materials for sharing this research to the public.
 :::
 ::::
 
@@ -95,6 +95,18 @@ One huge advantage of using cameras to continuously monitor bee activity is that
 
 :::{.callout-body}
 Bumble bees are a critically important group of insect pollinators wherein several species have experienced extensive declines in range and abundance, with federal and state protection pending for several species in addition to the currently endangered Rusty Patched bumble bee (*Bombus affinis*). Despite this, our understanding of bumble bee population trends is largely piecemeal due to a lack of long-term monitoring efforts. This project, ongoing since 2024, has established a long-term bumble bee monitoring effort across the historical and current range of the Rusty Patched bumble bee in the Upper Midwest. Part of this involves establishing BombusCam camera traps across our monitoring sites to compare against human-based methods with the hope of establishing the cameras as a permanent fixture in bumble bee monitoring efforts. 
+:::
+::::
+
+::::{.callout-body}
+::: {layout="[1,1,1,1]"}
+![](./media/research/bumble1.jpg){.lightbox .uniform-gallery description=""}
+
+![](./media/research/karner.jpg){.lightbox .uniform-gallery description=""}
+
+![](./media/research/karner2.png){.lightbox .uniform-gallery description=""}
+
+![](./media/research/butterflies.jpg){.lightbox .uniform-gallery description=""}
 :::
 ::::
 
