@@ -420,7 +420,29 @@ div.quarto-about-jolla .about-link {
   }
 }
 
-/* Hero section container */
+/* ==========================================
+   1. SITE-WIDE RESETS (Safe for all pages)
+   ========================================== */
+
+/* Remove default white gap between navbar and main content */
+#quarto-content,
+main.content {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+/* Ensure video elements act as block components (removes inline baseline gap) */
+video {
+  display: block;
+  vertical-align: top;
+  margin-top: 0;
+}
+
+
+/* ==========================================
+   2. HERO VIDEO (Isolated to .video-hero pages)
+   ========================================== */
+
 .video-hero {
   position: relative;
   width: 100vw;
@@ -428,84 +450,63 @@ div.quarto-about-jolla .about-link {
   right: 50%;
   margin-left: -50vw;
   margin-right: -50vw;
-  height: 50vh; /* Adjust hero height as needed */
+  min-height: 50vh;
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
-}
-
-/* Background video formatting */
-.video-hero video {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  transform: translate(-50%, -50%);
-  object-fit: cover;
-  z-index: 1;
-  filter: brightness(1); /* 1.0 is default, 0.6 dims it to 60% brightness */
-}
-
-/* Overlay to darken background video for improved text readability */
-.video-hero .hero-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.50); /* Adjust opacity (0.45) as needed */
-  z-index: 2;
-}
-
-/* Content layer over the video */
-.video-hero .hero-content {
-  position: relative;
-  z-index: 3;
-  color: #ffffff;
-  text-align: left;
-  max-width: 60%;
-  max-height: 150px;
-  padding: 0 2rem;         /* Prevents text from touching screen edges on mobile */
-  margin: 0 auto;
-}
-
-.video-hero .hero-content h1 {
-  font-size: 3rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
-  color: #ffffff;
-}
-
-.video-hero .hero-content p {
-  font-size: 1rem;
-  margin-bottom: 1.5rem;
-}
-
-/* remove white space under navbar */
-/* 1. Remove default padding/margin from page layout containers */
-main.content,
-#quarto-content,
-.page-columns,
-.quarto-container {
-  padding-top: 0 !important;
-  margin-top: 0 !important;
-}
-
-/* 2. Pull the hero section flush to the top */
-.video-hero {
+  padding: 3rem 0;
   margin-top: 0 !important;
   top: 0;
-}
 
-/* 3. Remove top margins from the first heading/element inside the hero */
-.video-hero .hero-content > *:first-child,
-.video-hero .hero-content h1 {
-  margin-top: 0 !important;
-  padding-top: 0 !important;
+  /* Target child video directly inside hero only */
+  video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    z-index: 1;
+    filter: brightness(1);
+  }
+
+  .hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.50);
+    z-index: 2;
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 3;
+    color: #ffffff;
+    text-align: left;
+    max-width: 80%;
+    max-height: none;
+    padding: 0 1.5rem;
+    margin: 0 auto;
+
+    h1 {
+      font-size: clamp(1.8rem, 4vw, 3rem);
+      font-weight: 700;
+      margin-bottom: 1rem;
+      color: #ffffff;
+    }
+
+    p {
+      font-size: clamp(0.95rem, 1.5vw, 1.15rem);
+      margin-bottom: 0;
+    }
+  }
 }
 
 /* Forces uniform image grid scaling */
@@ -523,4 +524,11 @@ img.uniform-gallery {
   gap: 1.5rem;             /* Even spacing between buttons */
   flex-wrap: wrap;         /* Enables clean stacking on small mobile screens */
   margin-top: 1.5rem;
+}
+
+/* Ensure the video acts as a block element (removes inline font-baseline gap) */
+video {
+  display: block;
+  vertical-align: top;
+  margin-top: 0;
 }
