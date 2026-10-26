@@ -515,3 +515,12 @@ img.uniform-gallery {
   object-fit: cover !important; /* Crops the images evenly so they don't stretch or warp */
   border-radius: 8px;       /* Optional: Adds a clean rounded corner to each image */
 }
+
+.button-row {
+  display: flex;
+  justify-content: center; /* Centers buttons horizontally */
+  align-items: center;     /* Aligns buttons vertically */
+  gap: 1.5rem;             /* Even spacing between buttons */
+  flex-wrap: wrap;         /* Enables clean stacking on small mobile screens */
+  margin-top: 1.5rem;
+}

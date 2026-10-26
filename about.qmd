@@ -49,8 +49,12 @@ Our cameras give us data at an unprescedented resolution of time and space, allo
 {{< iconify clarity:design-line size=1.75em >}} The trap design is formed from an amalgam of prototypes, including work from our lab and some awesome work from researchers at Oregon State University. We've made adjustments to the trap attract surface and made ours solar powered to be able to collect data continously for the entire growing season.
 :::
 
-:::{.callout-body}
-[{{< iconify lucide-lab:bee size=1.5em >}} Check out BeeMachine](https://www.beemachine.ai/){.btn .btn-primary role="button"} [{{< iconify fluent-mdl2:script size=1.5em >}} Check out Oregon State paper](https://zslpublications.onlinelibrary.wiley.com/doi/10.1002/rse2.70091){.btn .btn-primary role="button"} 
+:::{.callout-body .button-row}
+[{{< iconify lucide-lab:bee size=1.5em >}} Check out BeeMachine](https://www.beemachine.ai/){.btn .btn-primary role="button"} 
+
+[{{< iconify fluent-mdl2:script size=1.5em >}} Check out Oregon State paper](https://zslpublications.onlinelibrary.wiley.com/doi/10.1002/rse2.70091){.btn .btn-primary role="button"} 
+
+[{{< iconify cib:github size=1.5em >}} See our build plans](https://github.com/ibug-lab/bombuscam){.btn .btn-primary role="button"} 
 :::
 ::::
 
